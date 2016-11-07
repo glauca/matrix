@@ -1,1 +1,1 @@
-1. [CROS](./cros.md)
+1. [CROS](./cors.conf)
