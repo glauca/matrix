@@ -1,1 +1,1 @@
-1. [CROS](./cors.conf)
+1. [CORS](./cors.conf)
