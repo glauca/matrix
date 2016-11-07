@@ -55,6 +55,11 @@ xhr.onreadystatechange = function() {
 };
 
 xhr.withCredentials = false;
+
+/**
+ * {@see https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started#Step_1_%E2%80%93_How_to_make_an_HTTP_request}
+ * {@see https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started#Step_5_%E2%80%93_Working_with_data}
+ */
 xhr.send(null);
 
 /**
