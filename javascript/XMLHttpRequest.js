@@ -56,3 +56,14 @@ xhr.onreadystatechange = function() {
 
 xhr.withCredentials = false;
 xhr.send(null);
+
+/**
+ * {@see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest#Using_nothing_but_XMLHttpRequest}
+ *
+ * An html <form> can be sent in four ways:
+ *
+ *     using the POST method and setting the enctype attribute to application/x-www-form-urlencoded (default);
+ *     using the POST method and setting the enctype attribute to text/plain;
+ *     using the POST method and setting the enctype attribute to multipart/form-data;
+ *     using the GET method (in this case the enctype attribute will be ignored).
+ */
