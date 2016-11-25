@@ -7,3 +7,5 @@
 ##### [CORS](./cors/README.md)
 
 ##### [Nginx](./nginx/README.md)
+
+##### [Shell](./shell/README.md)
