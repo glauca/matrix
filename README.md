@@ -1,13 +1,15 @@
 ### 代码记录器
 
-##### [JavaScript](./javascript/README.md)
+##### [JavaScript](./javascript)
 
-##### [PHP](./php/README.md)
+##### [PHP](./php)
 
-##### [CORS](./cors/README.md)
+##### [MySQL](./mysql)
 
-##### [Nginx](./nginx/README.md)
+##### [CORS](./cors)
 
-##### [Shell](./shell/README.md)
+##### [Nginx](./nginx)
 
-##### [Node.js](./nodejs/README.md)
+##### [Shell](./shell)
+
+##### [Node.js](./nodejs)
