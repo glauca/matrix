@@ -7,7 +7,8 @@
 ### conf list
 1. [nginx.conf](./src/nginx.conf)
 1. [proxy](./upstream.conf)
-1. [HTTP load balancer](./upstream.conf)
+1. [HTTP load balancer](./src/upstream.conf)
+    + [Using nginx as HTTP load balancer](http://nginx.org/en/docs/http/load_balancing.html)
 1. [HTTPS](./https.conf)
 1. [CORS](./cors.conf)
 1. [防盗链](./src/secure_link.conf)
