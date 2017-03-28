@@ -11,3 +11,4 @@
 1. [HTTPS](./https.conf)
 1. [CORS](./cors.conf)
 1. [防盗链](./src/secure_link.conf)
+1. [限制连接](./src/limit_conn.conf)
