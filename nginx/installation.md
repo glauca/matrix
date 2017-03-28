@@ -32,4 +32,9 @@ yum -y install zlib zlib-devel openssl openssl-devel pcre pcre-devel
 --with-pcre-jit
 
 make && make install
+
+groupadd www
+useradd -r -g www -s /bin/false www
+
+mkdir /usr/local/nginx/conf/sites-available/ && mkdir /usr/local/nginx/conf/sites-enabled/
 ~~~
