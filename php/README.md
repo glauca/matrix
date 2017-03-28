@@ -1,1 +1,5 @@
+1. [PHP Installation](./src/installation.md)
+1. [php.ini](./src/php.ini)
+1. [php-fpm.conf](./src/php-fpm.conf)
+1. [www.conf](./src/www.conf)
 1. [Helper.class.php](./Helper.class.php)
