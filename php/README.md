@@ -8,3 +8,4 @@
 1. [Memcached Installation](./src/memcached.md)
 1. [Redis Installation](./src/redis.md)
 1. [GeoIP](./src/geoip.md)
+1. [iplocation](./src/iplocation.md)
