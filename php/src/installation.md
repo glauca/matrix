@@ -1,9 +1,16 @@
 ### Installing PHP
 
 ~~~bash
+yum install wget pcre openssl* && \
+yum -y install gcc gcc-c++ autoconf libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libxml2 libxml2-devel zlib zlib-devel glibc glibc-devel glib2 glib2-devel bzip2 bzip2-devel ncurses ncurses-devel curl curl-devel e2fsprogs e2fsprogs-devel krb5 krb5-devel libidn libidn-devel openssl openssl-devel openldap openldap-devel nss_ldap openldap-clients openldap-servers make cmake && \
+yum -y install gd gd2 gd-devel gd2-devel man vim
+
 yum install -y icu libicu libicu-devel
 yum install readline-devel
 yum install net-snmp net-snmp-devel
+yum install gmp-devel
+
+cp -frp /usr/lib64/libldap* /usr/lib/
 ~~~
 
 ~~~bash
@@ -21,6 +28,9 @@ yum install net-snmp net-snmp-devel
 --with-readline \
 --with-snmp \
 --with-libxml-dir \
+--with-ldap \
+--with-openssl \
+--with-gmp \
 --enable-sockets \
 --enable-mysqlnd \
 --enable-gd-native-ttf \
