@@ -101,4 +101,34 @@ class Helper
 
         return true;
     }
+
+    /**
+     * 是否是合法的十六进制颜色
+     *
+     * @param  string $color #rrggbb
+     * @return boolean
+     */
+    public static function validHexColor($color)
+    {
+        if (preg_match('/^#[0-9a-zA-Z]{6}$/', $color, $match)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * 是否是合法的 rgba 颜色
+     *
+     * @param  string $color #rrggbb
+     * @return boolean
+     */
+    public static function validRgbaColor($rgba)
+    {
+        if (preg_match('/^rgba\(\s*(0|[1-9]\d?|1\d\d?|2[0-4]\d|25[0-5])\s*,\s*(0|[1-9]\d?|1\d\d?|2[0-4]\d|25[0-5])\s*,\s*(0|[1-9]\d?|1\d\d?|2[0-4]\d|25[0-5])\s*,\s*(0.\d\d?|[01])\s*\)$/', $rgba, $match)) {
+            return true;
+        }
+
+        return false;
+    }
 }
