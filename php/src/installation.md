@@ -31,6 +31,7 @@ cp -frp /usr/lib64/libldap* /usr/lib/
 --with-ldap \
 --with-openssl \
 --with-gmp \
+--with-curl \
 --enable-sockets \
 --enable-mysqlnd \
 --enable-gd-native-ttf \
@@ -38,6 +39,7 @@ cp -frp /usr/lib64/libldap* /usr/lib/
 --enable-zip \
 --enable-fpm \
 --enable-exif \
+--enable-opcache \
 --enable-shared
 
 make && make install
