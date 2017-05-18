@@ -3,3 +3,4 @@
 1. [调整 /home 目录大小](./vol_home_root.md)
 1. [同步时间](./rsync_datetime.md)
 1. [rsync](./rsync.md)
+1. [SWAP](./new_swap.md)
