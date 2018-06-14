@@ -41,7 +41,8 @@ cp -frp /usr/lib64/libldap* /usr/lib/
 --enable-exif \
 --enable-opcache \
 --enable-shared \
---enable-bcmath
+--enable-bcmath \
+--enable-exif
 
 make && make install
 
