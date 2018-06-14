@@ -36,6 +36,8 @@
 ##### [Uninstalling local packages](https://docs.npmjs.com/getting-started/uninstalling-local-packages)
 
     > npm uninstall lodash
+
+    To remove it from the dependencies in package.json, you will need to use the save flag:
     > npm uninstall --save lodash
     > npm uninstall --save-dev lodash
 
@@ -46,7 +48,10 @@
 ##### [Updating global packages](https://docs.npmjs.com/getting-started/updating-global-packages)
 
     > npm update -g <package_name>
+
+    To update all global packages, type:
     > npm update -g
+    > npm outdated
 
 ##### [Uninstalling global packages](https://docs.npmjs.com/getting-started/uninstalling-global-packages)
 
