@@ -33,4 +33,5 @@
 1. [用Go实现的一些常用的技术指标，比如：MACD，KDJ，BOLL等](https://github.com/joeguo/indicator)
 
 ### EBooks
-1. [ ][Go语言圣经（中文版）](https://docs.hacknode.org/gopl-zh/index.html)
+1. [ ] [Go语言圣经（中文版）](https://docs.hacknode.org/gopl-zh/index.html)
+1. [ ] [Go Web 编程](https://astaxie.gitbooks.io/build-web-application-with-golang/content/zh/)
