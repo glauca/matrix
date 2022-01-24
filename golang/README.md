@@ -21,6 +21,7 @@
 1. [spf13/viper](https://github.com/spf13/viper)
 1. [goRBAC](https://github.com/mikespook/gorbac)
 1. [GORM](https://gorm.io/zh_CN/)
+1. [Go RabbitMQ Client Library](https://github.com/rabbitmq/amqp091-go)
 
 ### Depository
 1. [Gorilla Web Toolkit](https://github.com/gorilla)
@@ -31,4 +32,4 @@
 1. [用Go实现的一些常用的技术指标，比如：MACD，KDJ，BOLL等](https://github.com/joeguo/indicator)
 
 ### EBooks
-1. [Go语言圣经（中文版）](https://docs.hacknode.org/gopl-zh/index.html)
+1. [ ][Go语言圣经（中文版）](https://docs.hacknode.org/gopl-zh/index.html)
