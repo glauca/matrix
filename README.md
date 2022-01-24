@@ -18,4 +18,4 @@
 
 ##### [Sass](./sass)
 
-##### [Golang](./gloang)
+##### [Golang](./golang)
