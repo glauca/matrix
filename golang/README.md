@@ -13,6 +13,7 @@
 1. [topgoer.com](https://www.topgoer.com/)
 1. [tal-tech/go-zero](https://github.com/zeromicro/go-zero)
 1. [go-kit/kit](https://github.com/go-kit/kit/)
+1. [Jupiter是斗鱼开源的面向服务治理的Golang微服务框架](https://jupiter.douyu.com/)
 
 ### Packages
 1. [go-pay/gopay](https://github.com/go-pay/gopay)
