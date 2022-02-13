@@ -30,6 +30,7 @@
 1. [panjf2000/ants](https://github.com/panjf2000/ants)
 1. [istio/istio](https://github.com/istio/istio)
 1. [mosn/mosn](https://github.com/mosn/mosn/)
+1. [prometheus/prometheus](https://github.com/prometheus/prometheus)
 1. [用Go实现的一些常用的技术指标，比如：MACD，KDJ，BOLL等](https://github.com/joeguo/indicator)
 
 ### EBooks
